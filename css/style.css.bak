@@ -1,0 +1,240 @@
+*{
+    font-family: Arial,Helvetica,sans-serif;
+}
+body{
+    overflow-x: ;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.topHeader{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.logo{
+    margin-left: 30px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.menu a:hover{
+    background-color: #d86422;
+    transition: all 0.3s ease;
+    font-weight: bolder;
+}
+.nav-menu{
+    width: 100%;
+    background-color: #008dc9;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+    z-index: 10;
+    font-size: large;
+}
+.navbar{
+    padding: 0px !important;
+}
+
+.item a {
+    color: whitesmoke !important;
+}
+.hero-content{
+    width: calc(100% - 2rem);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    grid-gap: 2rem;
+    margin: 1rem;
+    padding: 0px;
+}
+
+.hero-card:nth-child(2) img{
+    border-bottom: 2px solid #d86422;
+}
+.hero-image--content{
+    color: #fff;
+    margin-top: -35%;
+    transform: translate(0, -50%);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+.hero-image--content.bg-text-light .title span {
+    background-color: rgba(0,126,180,0.85);
+    box-shadow: 0.45rem 0 0 rgb(0 126 180 / 85%), -0.45rem 0 0 rgb(0 126 180 / 85%);
+}
+.inphoto{
+    margin-top: -12%;
+}
+.hero-content a{
+    background-color: #d86422;
+    border-radius: 3px;
+    color:#fff;
+    margin-left: 50px;
+    padding: 5px;
+    border-color: #d86422;
+    transition: all 0.3s ease;
+}
+.hero-content a:hover{
+    background-color: #fff;
+    color: #d86422;
+    text-decoration: none;
+    border:2px solid
+}
+
+
+.nav {
+    text-align: center !important;
+    border-radius: 6px;
+    float: right;
+    margin-right: 20px;
+    background-color: #d86422;
+}
+.nav:hover{
+    border-style:groove;
+    border-color:#d86422;
+    background-color:#fff;
+    color: #d86422;
+}
+.nav a{
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.nav a:hover{
+    color: #d86422;
+    text-decoration: none;
+}
+h3{
+    padding: 20px;
+    font-size: 1.60rem !important;
+    font-weight: bold !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+  }
+.secondHd{
+    float: left;
+}
+.secondHead{
+    float:right;
+}
+.secondHead a:hover{
+    color: #d86422;
+}
+.news_feed{
+    width: calc(100% - 1rem);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%,1fr));
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+h4{
+    font-weight: bold !important;
+}
+.news1 img{
+    height: 360px;
+    width: 370px;
+}
+.news2 img{
+    height: 213px;
+    width: 360px;
+}
+.news2 a{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+}
+.news3 img{
+    height: 391px;
+    width: 545px;
+}
+h5{
+    font-weight: bold !important;
+}
+.news4 img{
+    height: 70px;
+    width: 80px;
+    padding: 0 !important;
+}
+
+.vertical-list .vertical-list-item {
+    display: block;
+    width: 100%;
+    min-height: 131px;
+    margin: 0 0 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    float: left;
+    box-shadow: 5px 5px 20px 0 rgb(218 218 218 / 50%);
+}
+.news5{
+    color:#3c4245;
+}
+.main-footer{
+    background-color: #008dc9;
+    color: #fff;
+    height: 500px;
+    padding: 40px;
+}
+.main-footer a{
+    color: #fff;
+}
+footer a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+h6{
+    padding: 20px;
+}
+.panel ul li{
+    list-style-type: none;
+    padding: 0px 0px 0px 0px !important;
+    }
+.sub-label a{
+    font-size: large;
+}
+.sub-label{
+    padding: 0px;
+    line-height: 2;
+}
+.btmHead{
+    padding: 0px;
+}
+.panel a:hover{
+    color: #d86422;
+    transition: all 0.3s ease;
+    font-weight: bolder;
+}
+.white-logo{
+    height: 80px;
+    width: 350px;
+}
+.subs{
+    text-align: center !important;
+    background-color: #3c4245;
+    border-style:groove;
+    border-radius: 5px;
+    border-color: #3c4245;
+    float: left;
+}
+.subs a:hover{
+    color: black;
+}
+.subs:hover{
+    background-color: white;
+    border-color: black;
+}
+
+.btm-footer{
+    padding: 15px 0 0 15px;
+}

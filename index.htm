@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>World Health Organization</title>
+    <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+    <script src="bootstrap4/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+					<!--------------------Top black Search & Language bar--------------------->
+				<div class="topHeader">
+					<ul class="list-inline-item">
+						<li class="list-inline-item"><a class="nav-link text-white" href="#">Global</a></li>
+						<li class="list-inline-item nav-item dropdown"><a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Regions</a>
+							<div class="dropdown-menu bg-dark">
+							<a class="dropdown-item text-white" href="#">Africa</a>
+							<a class="dropdown-item text-white" href="#">America</a>
+							<a class="dropdown-item text-white" href="#">South-East-Asia</a>
+							<a class="dropdown-item text-white" href="#">Europe</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="list-inline-item float-right">
+						<li class="list-inline-item">
+							<form class="example" action="action_page.php">
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit"><i class="fa fa-search"></i></button>
+							</form></li>
+						<li class="list-inline-item"><a class="nav-link fas fa-language text-white" href="#"></a></li>
+						<li class="list-inline-item nav-item dropdown">
+						<select class="text-white nav-link dropdown-toggle bg-dark rounded border-secondary" data-toggle="dropdown" href="#">
+							<option class="dropdown-item text-white" href="#">Select Language</option>
+							<option class="dropdown-item text-white" href="#">English</option>
+							<option class="dropdown-item text-white" href="#">Hindi</option>
+							<option class="dropdown-item text-white" href="#">Francis</option>
+							<option class="dropdown-item text-white" href="#">Arabic</option>
+						</select>
+						</li>
+					</ul>
+				</div>
+
+				<!--------------------Organization Logo--------------------->
+				<div class="logo">
+					<img src="images/logo.png" alt="WHO logo" height="100px" width="300px">
+				</div>	
+				
+				<!----------------------------Navbar menu--------------------->
+				<div class="container-fluid nav-menu menu">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item active item">
+								<a class="nav-link home" href="#"><i class="fa-solid fa-house-chimney"></i></a>
+								</li>
+								<li class="nav-item item list-inline-item nav-item dropdown">
+								<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Health Topics</a>
+								<div class="dropdown-menu bg-dark dropright">
+									<a class="dropdown-item text-white dropdown-toggle" href="#">All Topics</a>
+									<a class="dropdown-item text-white dropdown-toggle" href="#">Resources</a>
+									<a class="dropdown-item text-white dropdown-toggle" href="#">Popular</a>
+									<a class="dropdown-item text-white" href="#">World Health Assembly</a>
+								</div>
+								</li>
+									<li class="nav-item item list-inline-item nav-item dropdown">
+									<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Countries</a>
+									<div class="dropdown-menu bg-dark dropright">
+										<a class="dropdown-item text-white dropdown-toggle" href="#">All Countries</a>
+										<a class="dropdown-item text-white" href="#">America</a>
+										<a class="dropdown-item text-white" href="#">Africa</a>
+										<a class="dropdown-item text-white" href="#">Asia</a>
+										<a class="dropdown-item text-white" href="#">Europe</a>
+										<a class="dropdown-item text-white" href="#">UAE</a>
+										<a class="dropdown-item text-white" href="#">Suidi Arabia</a>
+										<a class="dropdown-item text-white" href="#">India</a>
+										<a class="dropdown-item text-white" href="#">Who in Countries</a>
+									</div>
+								</li>
+								<li class="nav-item item list-inline-item nav-item dropdown">
+									<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Newsroom</a>
+									<div class="dropdown-menu bg-dark dropright">
+										<a class="dropdown-item text-white dropdown-toggle" href="#">All news</a>
+										<a class="dropdown-item text-white" href="#">News releases</a>
+										<a class="dropdown-item text-white" href="#">Statements</a>
+										<a class="dropdown-item text-white" href="#">Campaigns</a>
+										<a class="dropdown-item text-white" href="#">Commentaries</a>
+										<a class="dropdown-item text-white" href="#">Events</a>
+										<a class="dropdown-item text-white" href="#">Feature stories</a>
+										<a class="dropdown-item text-white" href="#">Speeches</a>
+										<a class="dropdown-item text-white" href="#">Photo library</a>
+									</div>
+								</li>
+								<li class="nav-item item list-inline-item nav-item dropdown">
+								<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Emergencies</a>
+									<div class="dropdown-menu bg-dark dropright">
+									<a class="dropdown-item text-white dropdown-toggle" href="#">Focus on</a>
+									<a class="dropdown-item text-white" href="#">Latest</a>
+									<a class="dropdown-item text-white" href="#">Who in emergencies</a>
+									<a class="dropdown-item text-white" href="#">Health Emergency Dashboard</a>
+									</div>
+								</li>
+								<li class="nav-item item list-inline-item nav-item dropdown">
+								<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">Data</a>
+									<div class="dropdown-menu bg-dark dropright">
+									<a class="dropdown-item text-white dropdown-toggle" href="#">Data at WHO</a>
+									<a class="dropdown-item text-white" href="#">Dashboard</a>
+									<a class="dropdown-item text-white" href="#">Highlight</a>
+									<a class="dropdown-item text-white" href="#">World Health Statistics 2021</a>
+									</div>
+								</li>
+								<li class="nav-item item list-inline-item nav-item dropdown">
+								<a class="text-white nav-link dropdown-toggle" data-toggle="dropdown" href="#">About WHO</a>
+									<div class="dropdown-menu bg-dark dropright">
+									<a class="dropdown-item text-white dropdown-toggle" href="#">Our Work</a>
+									<a class="dropdown-item text-white" href="#">Funding</a>
+									<a class="dropdown-item text-white" href="#">Accountability</a>
+									<a class="dropdown-item text-white" href="#">Governance</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+				<!--------------------Carousel--------------------->
+			<section class="col-md-12 px-0">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+					<li data-target="#demo" data-slide-to="3"></li>
+					<li data-target="#demo" data-slide-to="4"></li>
+					<li data-target="#demo" data-slide-to="5"></li>
+				</ul>
+				
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/1.jpg" alt="">
+							<div class="container carousel-caption text-left">
+								<h1>World Health Day 2022</h1>
+								<p>Are we able to reimagine a world where clean air, water and food are available to all? Where economies are focused on health and well-being? Where cities are liveable and people have control over their health and the health of the planet?</p>
+								<a class="btn btn-lg btn-primary" href="#">Learn more</a>
+							</div>
+					</div>
+
+					<!--------------------carousel images --------------------->
+					<div class="carousel-item">
+					<img src="images/2.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+					<img src="images/3.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+					<img src="images/4.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+					<img src="images/5.jpg" alt="">
+					</div>
+					<div class="carousel-item">
+					<img src="images/6.jpg" alt="">
+					</div>
+				</div>
+				
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				</div>
+			</section>
+
+			<!--------------------top news feed start--------------------->
+			<section class="hero-content">
+				<div class="hero-card card1">
+					<div class="hero-image--content bg-text-light position-relative">
+						<h1 class="font-weight-bold p-5 title"><span>COVID-19 pandemic</span></h1>
+							<div class="inphoto">
+								<a href="#">All information</a>
+							</div>
+					</div>
+				</div>
+			
+				<div class="hero-card">
+					<img src="https://cdn.who.int/media/images/default-source/who_homepage/thumbs_covid-map.tmb-479v.jpg" alt="covid" width="100%">
+					<h4>Coronavirus disease (COVID-19) Situation Dashboard</h4>
+						<p>This interactive map provides updated COVID-19 global and country data on a daily basis.</p>
+				</div>
+
+				<div class="hero-card card2">
+					<div class="hero-image--content bg-text-light position-relative">
+						<h1 class="font-weight-bold p-5 title"><span>Ukraine emergency</span></h1>
+						<div class="inphoto"> 
+							<a href="#">Access latest information</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-----------------Second head-------------->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="secondHd offset-sm-6 col-sm-6 my-5 ">
+						<div class="nav">
+							<a href="#">Ukraine: Donate (via WHO Foundation)</a>
+						</div>
+						
+					</div>
+					<div class="col-md-6">
+						<h3>Latest news from WHO</h3>
+					</div>
+					<div class="col-md-6">
+						<div class="secondHead"> 
+							<h3> <a href="#">All <p class="fa fa-arrow-right secondHead"></p></a></h3>
+						</div>
+					</div>	
+				</div>
+			</div>
+			
+			<hr>
+			
+			
+			<!--------------------All Current News--------------------->
+			<section class="news_feed text-dark">
+			<div class="news">
+				<img src="images/unhealtybreath.PNG" alt="unhealtybreath"  width="100%">
+					<h6>4 April 2022 | News Release</h6>
+					<h4>Billions of people still breathe unhealthy air: new WHO data</h4>
+			</div>
+			<div class="news">
+				<img src="images/vaccine.PNG" alt="vaccine"  width="100%">
+				<h6>2 April 2022 | Departmental news</h6>
+				<h4>Suspension of supply of COVID-19 vaccine (COVAXIN®)</h4>
+			</div>
+			<div class="news">
+				<img src="images/katarFiifa.PNG" alt="katarFiifa"  width="100%">
+				<h6>1 April 2022 | News Release</h6>
+				<h4>WHO, Qatar, FIFA leaders agree actions to promote health at FIFA World Cup Qatar 2022™</h4>
+			</div>
+			<div class="news">
+				<img src="images/childTrain.PNG" alt="childTrain"  width="100%">
+				<h6>31 March 2022 | Departmental news</h6>
+				<h4>WHO’s training for caregivers of children with autism goes online</h4>
+			</div>
+			</section><br><br>
+			
+
+			<!--------------------currant news section 2--------------------->
+			<section class="news_feed">
+			<div class="news1">
+				<h3>Global Health Emergency Appeal</h3><hr>
+				<img src="images/global health.jpg" alt="Global Health" width="100%">
+			</div>
+			<div class="news1">
+				<h3>World Health Day 2022</h3><hr>
+				<img src="images/ourplenet_ourHealth.jpg" alt="World Health photo" width="100%">
+			</div>
+			<div class="news1">
+				<h3>Refugee and migrant health</h3><hr>
+				<img src="images/Refugee and migrant.jpg" alt="Refugee and migrant photo" width="100%">
+			</div>
+			</section><br><br>
+
+			<!--------------------News Section side left--------------------->
+			<section class="news_feed">
+			<div class="news2">
+				<h3>WHO video channel</h3><hr>
+				<a href="#"><img src="images/Watch the video.jpg" alt="youtubelink" width="100%"><br>Watch the videos</a>
+			</div>
+			<div class="news2">
+				<h3>Publications</h3><hr>
+				<a href="#"><img src="images/Publications.jpg" alt="Publications" width="100%"><br>Find a Publication</a>
+			</div>
+			<div class="news2">
+				<h3>Director-General's speeches</h3><hr>
+				<a href="#"><img src="images/doctor speach.jpg" alt="Refugee and migrant photo" width="100%"><br>Read the speaches</a>
+			</div>
+			</section><br><br><br>
+
+			<!--------------------Right Side bar News--------------------->
+			<section class="news_feed">
+				<div class="news3">
+					<h3>Upcoming campaign</h3><hr>
+						<img src="images/World Chagas Disease.jpg" alt="youtubelink" width="100%"><br>
+							<h5>World Chagas Disease Day 2022</h5><br>
+						<h6 class="p-0">14 April 2022</h6>
+					<a href="#">Read more</a>
+				</div>
+				<div class="news4">
+					<h3>Events</h3><hr>
+						<div class="media p-1">
+							<a href="#"><img src="images/valign1.jpg" alt="Webinar upon the release" class="mr-2 mt-2" width="100%">
+							<div class="media-body">
+							<h5 class="news5">Webinar upon the release of 2022 WHO verbal autopsy instrument <br><small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;6 April 2022 12:00 – 13:00 UTC Time</small></h5></a>
+							</div>
+						</div><br>
+					<div class="media p-1">
+					<a href="#"><img src="images/health-assembly-palais-2000.jpg" alt="Webinar upon the release" class="mr-2 mt-2"  width="100%">
+					<div class="media-body">
+						<h5 class="news5">WHO Informal Consultation with People Living with NCDs and Mental Health Conditions in the Caribbean and North America <br><small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;6 - 7 April 2022</small></h5></a>
+					</div>
+					</div><br>
+					<div class="media p-1">
+						<a href="#"><img src="images/ourplenet_ourHealth.jpg" alt="Webinar upon the release" class="mr-2 mt-2" width="100%">
+							<div class="media-body">
+
+							<h5 class="news5"><small>World Health Day</small><br>
+								World Health Day 2022: Our planet, our health <br><small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;7 April 2022</small></h5></a>
+							</div>
+					</div><br>
+
+					<div class="media p-1 ">
+						<a href="#"><img src="images/cop-webinar.jpg" alt="Webinar upon the release" class="mr-2 mt-2" width="100%">
+						<div class="media-body">
+							<h5 class="news5">Food Safety COP webinar: Role of science in the Codex Alimentarius Commission<br><small><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;8 April 2022 15:00 – 16:00 CET</small></h5></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--------------------Footer Section--------------------->
+			<footer class="grid">
+				<section class="main-footer">
+					  <div class="container">
+							<div class="row">
+							  <div class="panel col-md-3">
+								  <a href="#"><h3 class="btmHead">Regions</h3></a>
+									<ul class="sub-label">
+									  <li><a href="#">Africa</a></li>
+									  <li><a href="#">America</a></li>
+									  <li><a href="#">Eastern Mediterranean</a></li>
+									  <li><a href="#">Europe</a></li>
+									  <li><a href="#">South-East Asia</a></li>
+									  <li><a href="#">Policies</a></li>
+									  <li><a href="#">About us</a></li>
+									</ul>
+							  </div>
+							  <div class="panel col-md-3">
+								  <a href="#"><h3 class="btmHead">Policies</h3></a>
+									<ul class="sub-label">
+									  <li><a href="#">Cyber security</a></li>
+									  <li><a href="#">Ethics</a></li>
+									  <li><a href="#">Permissions and licensing</a></li>
+									  <li><a href="#">Preventing sexual exploitation</a></li>
+									  <li><a href="#">Terms of use</a></li>
+									</ul>
+							  </div>
+							  <div class="panel col-md-3">
+								  <a href="#"><h3 class="btmHead">About us</h3></a>
+									<ul class="sub-label">
+									  <li><a href="#">Careers</a></li>
+									  <li><a href="#">Library</a></li>
+									  <li><a href="#">Procurement</a></li>
+									  <li><a href="#">Publications</a></li>
+									  <li><a href="#">Frequently asked questions</a></li>
+									  <li><a href="#">Contact us</a></li>
+									</ul>
+							  </div>
+									<div class="col-md-3">
+										<div class="row">
+											<button class="subs">
+												<a href="#"><h5 class="text-center">Subscribe to our newsletters</h5></a>
+											</button>
+										</div>
+									</div>
+							</div>
+						  
+							<!--------------------Footer image--------------------->
+						  <div class="mt-3 mx-auto white-logo">
+							<img src="images/h-logo-white.svg" alt="h-logo-white">
+						  </div>
+						</div>
+					</section>
+					
+
+					<!--------------------Footer link section--------------------->
+					<section class="bottom-footer btm-footer bg-dark font-weight-bold">
+						<div class="container">
+						  <div class="row">
+							  <div class="col-md-4 text-white text-left">Privacy Legal Notice</div>
+								  <div class="col-md-4 text-white text-center">
+										<ul class="social-link list-inline text-center">
+										  <li class="list-inline-item">
+											  <a href="" class="text-white bg-secondary px-2 py-2 rounded-circle"> <i class="fa-brands fa-linkedin-in"></i> </a>
+										  </li> 
+										  <li class="list-inline-item">   
+											  <a href="" class="text-white bg-secondary px-2 py-2 rounded-circle"> <i class="fa-brands fa-twitter"></i> </a>
+										  </li> 
+										  <li class="list-inline-item">   
+											  <a href="" class="text-white bg-secondary px-2 py-2 rounded-circle"> <i class="fa-brands fa-pinterest"></i> </a>
+										  </li> 
+										  <li class="list-inline-item">   
+											  <a href="" class="text-white bg-secondary px-2 py-2 rounded-circle"> <i class="fa-brands fa-google-plus-g"></i> </a>
+										  </li> 
+										  <li class="list-inline-item">   
+											  <a href="" class="text-white bg-secondary px-2 py-2 rounded-circle"> <i class="fa fa-rss"></i> </a>
+										  </li>
+										</ul>
+								  </div>
+								<div class="col-md-4 text-white text-right">Developed by Zalal Uddin</div>
+							</div>
+						</div>
+				</section>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
